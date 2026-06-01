@@ -1,0 +1,14 @@
+import Navbar from "../../components/Navbar";
+import MobileNav from "../../components/MobileNav";
+
+export default function WatchlistPage() {
+  return (
+    <>
+      <Navbar />
+      <div style={{ padding: "20px", paddingBottom: "80px" }}>
+        <h1>Watchlist</h1>
+      </div>
+      <MobileNav />
+    </>
+  );
+}
